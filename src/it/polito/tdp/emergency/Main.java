@@ -6,11 +6,11 @@ import it.polito.tdp.emergency.model.Simulator;
 public class Main {
 
 	public static void main(String[] args) {
-		Simulator sim = new Simulator(10) ;
+		Simulator sim = new Simulator(3) ;
 		
-		for(int i=0; i<50; i++) {
+		for(int i=0; i<100; i++) {
 			Patient p = new Patient("Pat"+String.valueOf(i)) ;
-			sim.addPatient(p, 8*60 + i * 10);
+			sim.addPatient(p, 8*60 + i * 5);
 		}
 		
 		sim.run();

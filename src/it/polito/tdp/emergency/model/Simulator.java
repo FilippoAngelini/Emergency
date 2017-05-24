@@ -11,14 +11,14 @@ public class Simulator {
 
 	private int NS; // number of studios
 
-	private int DURATION_TRIAGE = 5 * 60;
-	private int DURATION_WHITE = 10 * 60;
-	private int DURATION_YELLOW = 15 * 60;
-	private int DURATION_RED = 30 * 60;
+	private int DURATION_TRIAGE = 5 ;
+	private int DURATION_WHITE = 10 ;
+	private int DURATION_YELLOW = 15 ;
+	private int DURATION_RED = 30 ;
 
-	private int WHITE_TIMEOUT = 30 * 60;
-	private int YELLOW_TIMEOUT = 30 * 60;
-	private int RED_TIMEOUT = 60 * 60;
+	private int WHITE_TIMEOUT = 30 ;
+	private int YELLOW_TIMEOUT = 30 ;
+	private int RED_TIMEOUT = 60 ;
 
 	// World model
 	private PriorityQueue<Patient> waitingRoom;
